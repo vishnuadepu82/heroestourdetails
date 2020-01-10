@@ -11,11 +11,11 @@ heroes=heroes;
 selectedHero: Heroes;
   constructor() { }
 onSelect(hero:Heroes):void {
-  debugger;
+  
 this.selectedHero=hero;
 }
   ngOnInit() {
-  console.log(this.selectedHero);
+ 
   }
 
 }
